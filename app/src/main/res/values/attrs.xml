@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyProgressBar" >
+        <!-- 进度条默认的样式 -->
+        <attr name="back_line_color" format="color"/>
+        <attr name="back_line_height" format="dimension"/>
+        <!-- 展示进度的样式 -->
+        <attr name="fore_line_color" format="color"/>
+        <attr name="fore_line_height" format="dimension"/>
+        <!-- 图片的大小-->
+        <attr name="picture_width" format="dimension"/>
+        <attr name="picture_height" format="dimension"/>
+        <!-- 文字的大小和颜色位置-->
+        <attr name="text_color" format="color"/>
+        <attr name="text_size" format="dimension"/>
+        <attr name="text_offset" format="dimension"/>
+    </declare-styleable>
+</resources>
