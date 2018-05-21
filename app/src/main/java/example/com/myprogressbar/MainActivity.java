@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
                 counts = 0;
                 while (isRunning){
                     try {
-                        Thread.sleep(2000);
+                        Thread.sleep(100);
                         handler.sendEmptyMessage(1);
                     } catch (InterruptedException e) {
                         e.printStackTrace();
