@@ -20,7 +20,7 @@ import android.widget.ProgressBar;
  */
 
 public class MyProgressBar extends ProgressBar {
-    private static final int DEFAULT_VAULES=20;
+    private static final int DEFAULT_VAULES=30;
     //进度条默认颜色(粉)
     private static final int DEFAULT_BACK_LINE_COLOR=0xffFF8080;
     private static final int DEFAULT_BACK_LINE_HEIGHT=DEFAULT_VAULES;
@@ -157,6 +157,7 @@ public class MyProgressBar extends ProgressBar {
         }
 
         int y=(int)(-(textPaint.descent()+textPaint.ascent()/2));
+//        int y=(int)(-(DEFAULT_VAULES-textPaint.ascent()/2-textPaint.descent()/2));
         canvas.drawText(text,progressX,y,textPaint);
 
         if(!noNeedUnRech)
